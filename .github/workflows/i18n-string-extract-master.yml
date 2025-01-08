@@ -9,7 +9,6 @@ on:
 jobs:
   extract-and-upload-i18n-strings:
     runs-on: ubuntu-latest
-    if: github.repository == 'actualbudget/actual'
     steps:
       - name: Check out main repository
         uses: actions/checkout@v4
